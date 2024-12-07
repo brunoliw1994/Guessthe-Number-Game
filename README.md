@@ -1,32 +1,27 @@
-# Overview
+# Guess the Number Game (Java)
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This program is a "Guess the Number" game made in Java. It's designed to help understand Java's object-oriented programming features, like inheritance and abstraction, while also practicing basic input and output.
 
-{Provide a description of the software that you wrote to demonstrate the Java language.}
+The game involves the computer generating a random number between 1 and 100, which the player must guess within a limited number of attempts.
 
-{Describe your purpose for writing this software.}
+This project aims to demonstrate and reinforce the use of extends and abstract in Java while showcasing the concepts of encapsulation and abstraction through an engaging and interactive application.
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
 [Software Demo Video](http://youtube.link.goes.here)
 
-# Development Environment
-
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+# Development Environment:
+Programming Language: Java 17
+Compiler: OpenJDK 17
+Libraries: Standard Java Libraries
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Geeksforgeeks.org](https://www.geeksforgeeks.org/number-guessing-game-in-java/)
+- [Stackoverflow.com](https://stackoverflow.com/questions/29890213/guess-the-number-in-java)
+- [YouTube](https://www.youtube.com/watch?v=xoMzL7aRxK4)
+- [Skoolofcode.us](https://skoolofcode.us/blog/guessing-game/)
 
 # Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Add a feature to allow players to set their own range for the random number.
+- Include a leaderboard to track and display high scores or fastest guesses.
+- Allow the user to change the difficulty level of the as well as change the number of attempts.
