@@ -12,7 +12,9 @@ This project aims to demonstrate and reinforce the use of extends and abstract i
 
 # Development Environment:
 Programming Language: Java 17
+
 Compiler: OpenJDK 17
+
 Libraries: Standard Java Libraries
 
 # Useful Websites
