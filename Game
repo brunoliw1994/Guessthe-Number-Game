@@ -1,0 +1,13 @@
+// Defines an abstract class with shared functionality for the game
+abstract class Game {
+    protected int maxAttempts; // Stores the maximum number of attempts
+    protected int randomNumber; // Stores the random number to be guessed
+
+    // Constructor initializes the number of attempts
+    public Game(int maxAttempts) {
+        this.maxAttempts = maxAttempts;
+    }
+
+    // Abstract method to be implemented by subclasses for starting the game
+    public abstract void start();
+}
