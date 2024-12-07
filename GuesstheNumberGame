@@ -1,0 +1,44 @@
+// Implements the game by extending the Game abstract class
+import java.util.Random;
+import java.util.Scanner;
+
+class GuessTheNumber extends Game {
+
+    // Constructor initializes the parent class with the maximum attempts
+    public GuessTheNumber(int maxAttempts) {
+        super(maxAttempts);
+        generateRandomNumber(); // Generates the random number
+    }
+
+    // Generates a random number between 1 and 100
+    private void generateRandomNumber() {
+        Random random = new Random();
+        randomNumber = random.nextInt(100) + 1; // Random number in range 1-100
+    }
+
+    // Implements the game logic for starting the game
+    @Override
+    public void start() {
+        Scanner scanner = new Scanner(System.in); // Scanner for user input
+        System.out.println("Welcome to the Guess the Number Game!");
+        System.out.println("I have chosen a number between 1 and 100.");
+        System.out.println("You have " + maxAttempts + " attempts to guess it correctly.");
+
+        for (int attempt = 1; attempt <= maxAttempts; attempt++) {
+            System.out.print("Attempt " + attempt + ": Enter your guess: ");
+            int playerGuess = scanner.nextInt(); // Reads user's guess
+
+            // Checks if the guess is correct
+            if (playerGuess == randomNumber) {
+                System.out.println("Congratulations! You've guessed the number!");
+                return; // Exits the game
+            } else if (playerGuess < randomNumber) {
+                System.out.println("Too low! Try again.");
+            } else {
+                System.out.println("Too high! Try again.");
+            }
+        }
+        // If maximum attempts are reached, reveals the number
+        System.out.println("Game Over! The number was: " + randomNumber);
+    }
+}
