@@ -1,0 +1,8 @@
+// Contains the main method to execute the game
+public class Main {
+    public static void main(String[] args) {
+        GuessTheNumber game = new GuessTheNumber(7);
+        game.start(); // Starts the game
+    }
+    
+}
