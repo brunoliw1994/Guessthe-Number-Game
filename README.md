@@ -6,9 +6,7 @@ The game involves the computer generating a random number between 1 and 100, whi
 
 This project aims to demonstrate and reinforce the use of extends and abstract in Java while showcasing the concepts of encapsulation and abstraction through an engaging and interactive application.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Guess the Number Game](https://youtu.be/DwviIFV9TRI)
 
 # Development Environment:
 Programming Language: Java 17
